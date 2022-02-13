@@ -1,7 +1,31 @@
 module.exports = {
-    subreddits:[
-        "Chonkers",
-        "CatsWhoYell",
-        "CatLoaf"
+    subreddits: [
+        "angrycatpics",
+        "blurrypicturesofcats",
+        "catbellies",
+        "catfaceplant",
+        "catfruit",
+        "cathostage",
+        "Catloaf",
+        "CatsAreAssholes",
+        "CatsCalledFood",
+        "CatsEnjoyingPets",
+        "catsinpants",
+        "CatsISUOTTATFO",
+        "catsonglass",
+        "catsplayingvideogames",
+        "Catswhoyell",
+        "Delightfullychubby",
+        "IllegallySmolCats",
+        "longmeow",
+        "notmycat",
+        "PirateKitties",
+        "politecats",
+        "PoofCats",
+        "scrungycats",
+        "StartledCats",
+        "Stealthbombers",
+        "teefies",
+        "WhatsWrongWithYourCat"
     ]
 }
