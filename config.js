@@ -1,5 +1,7 @@
 module.exports = {
     subreddits: [
+        "Chonkers",
+        "CatLoaf",
         "angrycatpics",
         "blurrypicturesofcats",
         "catbellies",
