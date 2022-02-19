@@ -25,10 +25,10 @@ const runner = async () => {
     .then(reddit.extractSubredditData)
     .then(data => {
         getUnvisitedPost(data)
-        .then(post => telegram.sendPost(post))
+        .then(post => telegram.sendCustomPhoto(post))
         .then(post => markAsVisited(post))
         .catch(error => {
-            console.log(`Could not post kot because tg server returned ${error}`);
+            console.log(`Could not post kot because tg server returned ${JSON.stringify(error.response.data)}`);
         });
     })
 }

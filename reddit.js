@@ -13,6 +13,20 @@ const extractSubredditData =  (resp) => {
     return children
     .map(child => child.data)
     .filter(child => !!!child.stickied)
+    .filter(child => {
+        console.log(`post hint = ${child.post_hint} domain = ${child.domain}`)
+        if(child.post_hint === "image") {
+            return true;
+
+        } else if(child.post_hint === "link" && child.domain === "imgur.com") {
+            console.log("Imgur link spotted.")
+            return true;
+        }
+        else {
+            console.log("Post hint is not an image. Skipping this one.");
+            return false;
+        }
+    })
     .map(child => ({
         id: child.id,
         subreddit: child.subreddit,
