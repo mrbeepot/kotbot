@@ -28,6 +28,7 @@ module.exports = {
         "StartledCats",
         "Stealthbombers",
         "teefies",
-        "WhatsWrongWithYourCat"
+        "WhatsWrongWithYourCat",
+        "GirlsWithHugePussies"
     ]
 }
